@@ -37,7 +37,7 @@ This JSP just asks you to click a link without authentication.</em><p>
     <strong>Identity:</strong> <pre><%= openididentity %> </pre><br>
     <strong>Site:</strong> <pre> <%= site %></pre><br>
     <form method="post" action="?action=authorize">
-        <input type="text" name="id">
+        <input type="text" name="id"> sample : cln000000257<br>
         <input type="submit" id="soushin_botann">
     </form>
 <%
